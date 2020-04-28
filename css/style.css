@@ -1,0 +1,158 @@
+@import url(./reset.css);
+@import url(../fonts/Misto.otf);
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@font-face {
+    font-family: 'misto';
+    font-weight: normal;
+    src: url(../fonts/Misto.otf) format(truetype);
+}
+
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: misto;
+  position: absolute;
+  bottom: 5vw;
+  left: 5vw;
+  font-size: 3vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2vw;
+}
+
+canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  display: block;
+}
+
+.linkBox {
+  height: 12vh;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+}
+
+.linksItem {
+  margin-right: 3vw;
+}
+
+.menu {
+  visibility: hidden;
+}
+.close {
+  visibility: hidden;
+}
+
+
+
+
+@media (max-width: 425px) {
+  a {
+    color: black;
+  }
+
+  /* .header{
+    display: none;
+  } */
+
+  .nav {
+    height: 10vh;
+  }
+  .menu,
+  .close {
+    position: absolute;
+    width: 10vw;
+    /* cursor: pointer; */
+    left: 5%;
+    top: 5%;
+    /* transform: translate(-5%,-50%); */
+    z-index: 2;
+  }
+    .menu {
+    visibility: visible;
+  }
+
+  .close {
+    visibility:hidden;
+  }
+
+    .links {
+    list-style: none;
+    position: absolute;
+    background: white;
+    height: 29%;
+    width: 50%;
+    flex-direction: column;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    border: 3px solid;
+    top: 9vw;
+    left: 5vw;
+    align-items: start;
+  }
+
+
+  .linksItem {
+    margin-left: 30px;
+
+    font-size: 4vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
