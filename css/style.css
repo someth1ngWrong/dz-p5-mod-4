@@ -29,6 +29,10 @@ a {
   font-size: 2vw;
 }
 
+a:hover {
+  color: red;
+}
+
 canvas {
   position: fixed;
   z-index: -1;
